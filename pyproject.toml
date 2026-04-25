@@ -1,5 +1,5 @@
 [project]
-name = "icon-gen"
+name = "icon-from-file"
 version = "0.1.0"
 description = "Python script to generate a 128x128 image from the unique hash of a file"
 readme = "README.md"
