@@ -1,15 +1,23 @@
 [project]
 name = "icon-from-file"
 version = "0.1.0"
+authors = [
+  {name="emnul", email="34749913+emnul@users.noreply.github.com"}
+]
 description = "Python script to generate a 128x128 image from the unique hash of a file"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "pillow>=12.2.0",
 ]
+license = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/emnul/IconGen"
+Issues = "https://github.com/emnul/IconGen/issues"
 
 [project.scripts]
-icon-gen = "icon_gen.main:main"
+icon-gen = "icon_from_file.main:main"
 
 [build-system]
 requires = ["uv_build>=0.11.7,<0.12.0"]
