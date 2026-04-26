@@ -5,13 +5,16 @@ Generates a deterministic 128x128 PNG icon from any file. The icon is a color gr
 ## Installation
 
 ```bash
-uv sync
+uv install icon-from-file
 ```
 
 ## Usage
 
 ```bash
 uv run icon-gen <filepath> [options]
+
+# to use as a tool
+uvx --from icon-from-file icon-gen <filepath> [options]
 ```
 
 ### Arguments
